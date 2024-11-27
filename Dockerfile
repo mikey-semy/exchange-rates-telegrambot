@@ -9,4 +9,4 @@ RUN pip install -r /app/requirements.txt
 # Копирование кода бота
 COPY . /app
 
-CMD ["python", "-m", "./app/bot/__main__.py"]
+CMD ["python", "-m", "/app/bot/__main__.py"]

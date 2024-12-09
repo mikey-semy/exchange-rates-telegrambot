@@ -6,11 +6,11 @@ from aiogram.types import Message, ReplyKeyboardRemove
 
 from fluent.runtime import FluentLocalization
 
-from keyboards.build_row_keyboard import build_row_keyboard
-
+from bot.keyboards.build_row_keyboard import build_row_keyboard
+from bot.config import settings
 from .currency_converter import CurrencyConverter
 
-from config import settings
+
 
 
 class ChoseCurrencyCode(StatesGroup):

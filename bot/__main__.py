@@ -7,10 +7,10 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from fluent.runtime import FluentLocalization, FluentResourceLoader
 
-from handlers import setup_routers
-from commandsworker import set_bot_commands
-from middlewares import L10nMiddleware
-from config import settings
+from bot.handlers import setup_routers
+from bot.commandsworker import set_bot_commands
+from bot.middlewares import L10nMiddleware
+from bot.config import settings
 
 
 async def main():

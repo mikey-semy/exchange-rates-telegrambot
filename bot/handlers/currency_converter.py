@@ -3,7 +3,7 @@ import json
 import aiohttp
 from fluent.runtime.types import fluent_number
 
-from config import settings
+from bot.config import settings
 
 class CurrencyConverter:
 
